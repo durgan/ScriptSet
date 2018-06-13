@@ -175,6 +175,6 @@ if __name__=="__main__":
     #去重 todo
     for i in range(0, len(totalResultImgs)):
         print i, totalResultImgs[i]
-        delEveryImg(toDelImages1[i])
+        delEveryImg(totalResultImgs[i])
 
     print "Complete to delete obsoleted images."
